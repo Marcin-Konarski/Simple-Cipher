@@ -6,7 +6,6 @@ import numpy as np
 import re
 from collections import Counter
 import time
-import os
 import sys
 
 ## simple generator to generate next letter, used to resize the key to the size of the message
@@ -185,6 +184,4 @@ def menu():
 
 
 if __name__ == "__main__":
-    script_dir = os.path.dirname(os.path.abspath(__file__))
     menu()
-    input("Press Enter to exit...")
